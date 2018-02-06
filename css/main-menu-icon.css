@@ -1,0 +1,92 @@
+.sprite-main-menu {
+    background-image: url(../img/main-manu-icon.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin-right: 10px;
+}
+
+.sprite-mmi1 {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -5px;
+}
+
+.sprite-mmi10 {
+    width: 20px;
+    height: 20px;
+    background-position: -35px -5px;
+}
+
+.sprite-mmi11 {
+    width: 20px;
+    height: 20px;
+    background-position: -65px -5px;
+}
+
+.sprite-mmi12 {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -35px;
+}
+
+.sprite-mmi13 {
+    width: 20px;
+    height: 20px;
+    background-position: -35px -35px;
+}
+
+.sprite-mmi2 {
+    width: 20px;
+    height: 20px;
+    background-position: -65px -35px;
+}
+
+.sprite-mmi3 {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -65px;
+}
+
+.sprite-mmi4 {
+    width: 20px;
+    height: 20px;
+    background-position: -35px -65px;
+}
+
+.sprite-mmi5 {
+    width: 20px;
+    height: 20px;
+    background-position: -65px -65px;
+}
+
+.sprite-mmi6 {
+    width: 20px;
+    height: 20px;
+    background-position: -95px -5px;
+}
+
+.sprite-mmi7 {
+    width: 20px;
+    height: 20px;
+    background-position: -95px -35px;
+}
+
+.sprite-mmi8 {
+    width: 20px;
+    height: 20px;
+    background-position: -95px -65px;
+}
+
+.sprite-mmi9 {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -95px;
+}
+
+.sprite-next_menu {
+    width: 8px;
+    height: 14px;
+    background-position: -125px -5px;
+    margin: 0;
+    
+}

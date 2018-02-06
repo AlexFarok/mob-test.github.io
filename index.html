@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Decorior</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main-menu-icon.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+</head>
+<body>
+	<div class="container-auto">
+		<header class="main-header container">
+			<div class="main-header__top-row">
+				<div class="main-header__top-row--main-menu container">
+					<div class="main-menu__header">
+						<img src="img/logo-main-menu.png" alt="" class="main-menu__header--logo">
+						<button class="main-menu__header--close-button"></button>
+					</div>
+					<ul class="main-menu__item-list">
+						<li class="main-menu__item main-menu__item--entry">
+							<a href="#">Вход / Регистрация</a>
+						</li>
+						<li class="main-menu__item main-menu__item--main-page">
+							<i class="sprite-main-menu sprite-mmi1"></i>
+							<a href="#">Главная</a>
+						</li>
+						<li class="main-menu__item main-menu__item--bottom-line">
+							<i class="sprite-main-menu sprite-mmi2"></i>
+							<a href="#">Каталог товаров</a> <button class="main-menu__item--next-button main-menu__item--to-catalog"><i class="sprite-next_menu sprite-main-menu "></i></button>
+						</li>
+						<li class="main-menu__item">
+							<i class="sprite-main-menu sprite-mmi3"></i>
+							<a href="#">Вопросы и ответы</a>
+						</li>
+						<li class="main-menu__item">
+							<i class="sprite-main-menu sprite-mmi4"></i>
+							<a href="#">Мгновенная рассрочка</a>
+						</li>
+						<li class="main-menu__item">
+							<i class="sprite-main-menu sprite-mmi5"></i>
+							<a href="#">Оплата частями</a>
+						</li>
+						<li class="main-menu__item">
+							<i class="sprite-main-menu sprite-mmi6"></i>
+							<a href="#">Гарантия</a>
+						</li>
+						<li class="main-menu__item">
+							<i class="sprite-main-menu sprite-mmi7"></i>
+							<a href="#">Доставка и оплата</a>
+						</li>
+						<li class="main-menu__item">
+							<i class="sprite-main-menu sprite-mmi8"></i>
+							<a href="#">Отследить заказ</a>
+						</li>
+						<li class="main-menu__item main-menu__item--bottom-line">
+							<i class="sprite-main-menu sprite-mmi9"></i>
+							<a href="#">Контакты</a>
+						</li>
+						<li class="main-menu__item">
+							<i class="sprite-main-menu sprite-mmi10"></i
+								><a href="#">Личный кабинет</a><button class="main-menu__item--next-button main-menu__item--to-account"><i class="sprite-next_menu sprite-main-menu "></i></button>
+						</li>
+						<li class="main-menu__item">
+							<i class="sprite-main-menu sprite-mmi11"></i
+								><a href="#">Корзина</a><b class="basket-value">10</b>
+						</li>
+						<li class="main-menu__item">
+							<i class="sprite-main-menu sprite-mmi12"></i
+								><a href="#">Сравнение</a>
+						</li>
+						<li class="main-menu__item">
+							<i class="sprite-main-menu sprite-mmi13"></i
+								><a href="#">РУ</a>
+						</li>
+					</ul>
+				</div>
+				<button id="MainTogler" class="main-header__top-row--toggler"></button>
+				<div class="main-header__top-row--logo"><img src="img/logo-main-menu.png"></div>
+				<div class="main-header__top-row--button-box">
+					<button class="button-box--account-button button-box--item"></button>
+					<button class="button-box--basket-button button-box--item"><b class="basket-sticker">10</b></button>
+					
+				</div>
+
+			</div>
+			<div class="main-header__bottom-row">
+				<input type="text" class="main-header__bottom-row-search-input">
+				<button class="main-header__bottom-row-search-button"></button>
+			</div>
+		</header>
+		<main class="container">
+
+			<div class="catalog-menu">
+				<ul class="catalog-menu__list">
+					<li class="catalog-menu__list--title">Каталог товаров</li>
+					<li class="catalog-menu__list--item">
+						<a href="#" class="catalog-menu__list--link">
+							<img src="img/cat-menu1.png" alt="" width="60" height="60">
+							<span class="catalog-menu__list--category-name">Плитка для стен</span>
+						</a>
+					</li>
+					<li class="catalog-menu__list--item">
+						<a href="#" class="catalog-menu__list--link">
+							<img src="img/cat-menu2.png" alt="" width="60" height="60">
+							<span class="catalog-menu__list--category-name">Плитка для пола, керамогранит</span>
+						</a>
+					</li>
+					<li class="catalog-menu__list--item">
+						<a href="#" class="catalog-menu__list--link">
+							<img src="img/cat-menu3.png" alt="" width="60" height="60">
+							<span class="catalog-menu__list--category-name">Мозаика</span>
+						</a>
+					</li>
+					<li class="catalog-menu__list--item">
+						<a href="#" class="catalog-menu__list--link">
+							<img src="img/cat-menu1.png" alt="" width="60" height="60">
+							<span class="catalog-menu__list--category-name">Клинкер</span>
+						</a>
+					</li>
+					<li class="catalog-menu__list--item">
+						<a href="#" class="catalog-menu__list--link">
+							<img src="img/cat-menu2.png" alt="" width="60" height="60">
+							<span class="catalog-menu__list--category-name">Ванны, гидромассаж</span>
+						</a>
+					</li>
+					<li class="catalog-menu__list--item">
+						<a href="#" class="catalog-menu__list--link">
+							<img src="img/cat-menu3.png" alt="" width="60" height="60">
+							<span class="catalog-menu__list--category-name">УНИТАЗЫ, РАКОВИНЫ </span>
+						</a>
+					</li>
+					<li class="catalog-menu__list--item">
+						<a href="#" class="catalog-menu__list--link">
+							<img src="img/cat-menu1.png" alt="" width="60" height="60">
+							<span class="catalog-menu__list--category-name">Плитка для стен</span>
+						</a>
+					</li>
+					<li class="catalog-menu__list--item">
+						<a href="#" class="catalog-menu__list--link">
+							<img src="img/cat-menu2.png" alt="" width="60" height="60">
+							<span class="catalog-menu__list--category-name">Плитка для пола, керамогранит</span>
+						</a>
+					</li>
+					<li class="catalog-menu__list--item">
+						<a href="#" class="catalog-menu__list--link">
+							<img src="img/cat-menu3.png" alt="" width="60" height="60">
+							<span class="catalog-menu__list--category-name">Мозаика</span>
+						</a>
+					</li>
+					<li class="catalog-menu__list--item">
+						<a href="#" class="catalog-menu__list--link">
+							<img src="img/cat-menu1.png" alt="" width="60" height="60">
+							<span class="catalog-menu__list--category-name">Клинкер</span>
+						</a>
+					</li>
+					<li class="catalog-menu__list--item">
+						<a href="#" class="catalog-menu__list--link">
+							<img src="img/cat-menu2.png" alt="" width="60" height="60">
+							<span class="catalog-menu__list--category-name">Ванны, гидромассаж</span>
+						</a>
+					</li>
+					<li class="catalog-menu__list--item">
+						<a href="#" class="catalog-menu__list--link">
+							<img src="img/cat-menu3.png" alt="" width="60" height="60">
+							<span class="catalog-menu__list--category-name">УНИТАЗЫ, РАКОВИНЫ </span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="main-slider">
+				<div class="main-slider__item">
+					<img src="img/slider-img.png" alt="" class="main-slider__item--img">
+					<div class="main-slider__item--text"><span class="large-text">Идеальное решение</span>
+					<span class="normal-text">для вашего дома</span>
+					<a href="#" class="text-button">Перейти к товарам</a></div>
+				</div>	
+				<div class="main-slider__item">
+					<img src="img/slider-img.png" alt="" class="main-slider__item--img">
+					<div class="main-slider__item--text"><span class="large-text">Идеальное решение</span>
+					<span class="normal-text">для вашего дома</span>
+					<a href="#" class="text-button">Перейти к товарам</a></div>
+				</div>
+				<div class="main-slider__item">
+					<img src="img/slider-img.png" alt="" class="main-slider__item--img">
+					<div class="main-slider__item--text"><span class="large-text">Идеальное решение</span>
+					<span class="normal-text">для вашего дома</span>
+					<a href="#" class="text-button">Перейти к товарам</a></div>
+				</div>
+			</div>
+			<div class="catalog-box">
+				<button class="catalog-box__catalog-button">КАТАЛОГ товарОВ</button>			
+			</div>
+			<div class="sale-box">
+				<div class="sale-box__title"><span>СУПЕР АКЦИЯ 09.10 - 09.11</span></div>
+
+				<div class="sale-box__sale-item">
+					<a class="sale-box__sale-item--link" href="#">
+						<div class="sale-box__sale-item--header-img">
+							<img src="img/sale-item1.png" alt="" width="345" height="276">
+							<button class="add-compare"></button>
+							<button class="add-wish"></button>
+						</div>
+						<div class="sale-box__sale-item--item-info">
+							<div class="sale-box__sale-item--collection-name"><span>2208 tabaco - porcelanite dos</span></div>
+							<div class="sale-box__sale-item--country"><span>ИСПАНИЯ</span></div>
+						</div>
+						<div class="sale-box__sale-item--sale-price"><span><i class="main-sale-price">737</i>.79 грн/м2</span></div>
+					</a>
+				</div>
+
+				<div class="sale-box__sale-item">
+					<a class="sale-box__sale-item--link" href="#">
+						<div class="sale-box__sale-item--header-img">
+							<img src="img/sale-item2.png" alt="" width="345" height="276">
+							<button class="add-compare"></button>
+							<button class="add-wish"></button>
+						</div>
+						<div class="sale-box__sale-item--item-info">
+							<div class="sale-box__sale-item--collection-name"><span>2208 tabaco - porcelanite dos</span></div>
+							<div class="sale-box__sale-item--country"><span>ИСПАНИЯ</span></div>
+						</div>
+						<div class="sale-box__sale-item--sale-price"><span><i class="main-sale-price">737</i>.79 грн/м2</span></div>
+					</a>
+				</div>
+
+				<div class="sale-box__sale-item">
+					<a class="sale-box__sale-item--link" href="#">
+						<div class="sale-box__sale-item--header-img">
+							<img src="img/sale-item3.png" alt="" width="345" height="276">
+							<button class="add-compare"></button>
+							<button class="add-wish"></button>
+						</div>
+						<div class="sale-box__sale-item--item-info">
+							<div class="sale-box__sale-item--collection-name"><span>2208 tabaco - porcelanite dos</span></div>
+							<div class="sale-box__sale-item--country"><span>ИСПАНИЯ</span></div>
+						</div>
+						<div class="sale-box__sale-item--sale-price"><span><i class="main-sale-price">737</i>.79 грн/м2</span></div>
+					</a>
+				</div>
+
+				<div class="sale-box__sale-item">
+					<a class="sale-box__sale-item--link" href="#">
+						<div class="sale-box__sale-item--header-img">
+							<img src="img/sale-item4.png" alt="" width="345" height="276">
+							<button class="add-compare"></button>
+							<button class="add-wish"></button>
+						</div>
+						<div class="sale-box__sale-item--item-info">
+							<div class="sale-box__sale-item--collection-name"><span>2208 tabaco - porcelanite dos</span></div>
+							<div class="sale-box__sale-item--country"><span>ИСПАНИЯ</span></div>
+						</div>
+						<div class="sale-box__sale-item--sale-price"><span><i class="main-sale-price">737</i>.79 грн/м2</span></div>
+					</a>
+				</div>
+
+				<div class="sale-box__sale-item">
+					<a class="sale-box__sale-item--link" href="#">
+						<div class="sale-box__sale-item--header-img">
+							<img src="img/sale-item1.png" alt="" width="345" height="276">
+							<button class="add-compare"></button>
+							<button class="add-wish"></button>
+						</div>
+						<div class="sale-box__sale-item--item-info">
+							<div class="sale-box__sale-item--collection-name"><span>2208 tabaco - porcelanite dos</span></div>
+							<div class="sale-box__sale-item--country"><span>ИСПАНИЯ</span></div>
+						</div>
+						<div class="sale-box__sale-item--sale-price"><span><i class="main-sale-price">737</i>.79 грн/м2</span></div>
+					</a>
+				</div>
+
+				<div class="sale-box__sale-item">
+					<a class="sale-box__sale-item--link" href="#">
+						<div class="sale-box__sale-item--header-img">
+							<img src="img/sale-item2.png" alt="" width="345" height="276">
+							<button class="add-compare"></button>
+							<button class="add-wish"></button>
+						</div>
+						<div class="sale-box__sale-item--item-info">
+							<div class="sale-box__sale-item--collection-name"><span>2208 tabaco - porcelanite dos</span></div>
+							<div class="sale-box__sale-item--country"><span>ИСПАНИЯ</span></div>
+						</div>
+						<div class="sale-box__sale-item--sale-price"><span><i class="main-sale-price">737</i>.79 грн/м2</span></div>
+					</a>
+				</div>
+
+				<div class="sale-box__sale-item">
+					<a class="sale-box__sale-item--link" href="#">
+						<div class="sale-box__sale-item--header-img">
+							<img src="img/sale-item3.png" alt="" width="345" height="276">
+							<button class="add-compare"></button>
+							<button class="add-wish"></button>
+						</div>
+						<div class="sale-box__sale-item--item-info">
+							<div class="sale-box__sale-item--collection-name"><span>2208 tabaco - porcelanite dos</span></div>
+							<div class="sale-box__sale-item--country"><span>ИСПАНИЯ</span></div>
+						</div>
+						<div class="sale-box__sale-item--sale-price"><span><i class="main-sale-price">737</i>.79 грн/м2</span></div>
+					</a>
+				</div>
+
+				<div class="sale-box__sale-item">
+					<a class="sale-box__sale-item--link" href="#">
+						<div class="sale-box__sale-item--header-img">
+							<img src="img/sale-item4.png" alt="" width="345" height="276">
+							<button class="add-compare"></button>
+							<button class="add-wish"></button>
+						</div>
+
+						<div class="sale-box__sale-item--item-info">
+							<div class="sale-box__sale-item--collection-name"><span>2208 tabaco - porcelanite dos</span></div>
+							<div class="sale-box__sale-item--country"><span>ИСПАНИЯ</span></div>
+						</div>
+					</a>
+					<div class="sale-box__sale-item--sale-price"><span><i class="main-sale-price">737</i>.79 грн/м2</span></div>
+				</div>
+
+				<div class="sale-box__sale-item">
+					<a class="sale-box__sale-item--link" href="#">
+						<div class="sale-box__sale-item--header-img">
+							<img src="img/sale-item1.png" alt="" width="345" height="276">
+							<button class="add-compare"></button>
+							<button class="add-wish"></button>
+						</div>
+						<div class="sale-box__sale-item--item-info">
+							<div class="sale-box__sale-item--collection-name"><span>2208 tabaco - porcelanite dos</span></div>
+							<div class="sale-box__sale-item--country"><span>ИСПАНИЯ</span></div>
+						</div>
+						<div class="sale-box__sale-item--sale-price"><span><i class="main-sale-price">737</i>.79 грн/м2</span></div>
+					</a>
+				</div>
+
+				<div class="sale-box__sale-item">
+					<a class="sale-box__sale-item--link" href="#">
+						<div class="sale-box__sale-item--header-img">
+							<img src="img/sale-item2.png" alt="" width="345" height="276">
+							<button class="add-compare"></button>
+							<button class="add-wish"></button>
+						</div>
+						<div class="sale-box__sale-item--item-info">
+							<div class="sale-box__sale-item--collection-name"><span>2208 tabaco - porcelanite dos</span></div>
+							<div class="sale-box__sale-item--country"><span>ИСПАНИЯ</span></div>
+						</div>
+						<div class="sale-box__sale-item--sale-price"><span><i class="main-sale-price">737</i>.79 грн/м2</span></div>
+					</a>
+				</div>
+			</div>
+			<footer class="main-footer">
+				<div class="main-footer__catalog-list">
+					<div class="catalog-list-title"><span>Каталог</span><button class="catalog-list__close"></button></div>
+					<div class="catalog-box-list">
+						<ul class="catalog-list">
+							<li class="catalog-list__catalog--item"><a href="#">Ванны, гидромассаж</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Унитазы, раковины</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Смесители</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Мебель для ванных</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Душевые кабины</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Аксессуары</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Полотенцесушители</a></li>
+						</ul>
+						<ul class="catalog-list">
+							<li class="catalog-list__catalog--item"><a href="#">Клей</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Затирки для швов</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Химия строительная</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Сантехарматура</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Профили, крестики</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Бойлеры</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Моики</a></li>
+						</ul>
+						<ul class="catalog-list">
+							<li class="catalog-list__catalog--item"><a href="#">Плитка для стен</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Плитка для пола, кермогранит</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Мозаика</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Клинкер</a></li>
+							<li class="catalog-list__catalog--item"><a href="#">Ламинат, обои</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="main-footer__contacts">
+					<div class="contacts-list-title"><span>Контакты</span><button class="contacts-list__close"></button></div>
+					<div class="contacts-row">
+						<ul class="adress-list">
+							<li class="adress-item">г.Харьков</li>
+							<li class="adress-item">пр. Московский 257-А,метро «Дворец Спорта»</li>
+							<li class="adress-item">057-719-99-00</li>
+						</ul>
+					</div>
+					<div class="contacts-row">
+						<ul class="adress-list">
+							<li class="adress-item">г.Полтава</li>
+							<li class="adress-item">ул. Зеньковская 6-В, ТРЦ «Киев»</li>
+							<li class="adress-item">057-719-99-00</li>
+						</ul>
+					</div>
+					<div class="contacts-row">
+						<ul class="adress-list">
+							<li class="adress-item">г.Сумы</li>
+							<li class="adress-item">ул. Харьковская 107</li>
+							<li class="adress-item">054-265-10-07</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="main-footer__about-list">
+					<div class="about-list-title"><span>О компании</span><button class="about-list__close"></button></div>
+					<div class="about-box-list">
+						<ul class="about-list">
+							<li class="about-list__item"><a href="#">Уголок покупателя</a></li>
+							<li class="about-list__item"><a href="#">Пользовательское соглашение</a></li>
+						</ul>
+					</div>
+					<div class="main-footer__social-list">
+						<a href="" class="main-footer__social-list--fb"></a>
+						<a href="" class="main-footer__social-list--tw"></a>
+						<a href="" class="main-footer__social-list--inst"></a>
+					</div>
+				</div>
+				
+				
+			</footer>
+		</main>
+		<script src="js/main.js"></script>
+	</div>
+</body>
+
+</html>
